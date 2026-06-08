@@ -1,0 +1,33 @@
+:root {
+  --white: #ccd4d2;
+  --lightblue: #7fbada;
+  --bg-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    padding: 1rem 2rem;
+}
+
+nav:hover {
+    color: var(--lightblue);
+}
+
+section {
+    min-height: 100vh;
+    padding: 3rem;
+}
