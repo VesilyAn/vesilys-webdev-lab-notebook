@@ -23,11 +23,40 @@ nav {
     padding: 1rem 2rem;
 }
 
-nav:hover {
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
     color: var(--lightblue);
 }
 
 section {
-    min-height: 100vh;
     padding: 3rem;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
 }
