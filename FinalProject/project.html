@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section id="experience">
+        <section id="experience" class="experience">  
             <h2>Education And Experience</h2>
             <div class="experience-container">
                 <div class="experience-card">
@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 <div class="experience-card">
-                    <h3>Relevent CorseWork</h3>
+                    <h3>Relevent Corsework</h3>
                     <ul>
                         <li>Data Structures</li>
                         <li>Operating Systems</li>
@@ -108,7 +108,7 @@
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="projects">
             <h2>Projects</h2>
             <p class="project-intro">
                 These are a few projects that show my expereince with
@@ -145,8 +145,34 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="contact">
             <h2>Contact</h2>
+            <p class="section-intro">
+                You can reach out here if you have any questions,
+                opportunities, or anything else.
+            </p>
+            <form id="contact-form" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       required>
+                
+                <label for="email">Email</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+
+                <label for="message">Message</label>
+                <textarea name="message" 
+                          id="message"
+                          rows="6"
+                          required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="form-message"></p>
         </section>
 
     </main>

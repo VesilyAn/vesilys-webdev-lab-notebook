@@ -1,8 +1,11 @@
 :root {
+  --white: #ffffff;
   --nav-gray: #ccd4d2;
   --lightblue: #7fbada;
   --light-bg: #f4f4f4;
   --hover: #444444;
+  --form-color: #cccccc;
+  --submit-button: #546ca2;
 }
 
 * {
@@ -62,7 +65,7 @@ section {
     margin-bottom: 1rem;
 }
 
-#experience {
+.experience {
     background-color: var(--light-bg);
 }
 
@@ -114,12 +117,56 @@ section {
 .project-button {
     display: inline-block;
     text-decoration: none;
-    background-color: var(--light-bg);
+    background-color: var(--submit-button);
+    color: var(--white);
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-align: center;
 }
 
-.project-botton:hover {
+.project-button:hover {
     background-color: var(--hover);
+}
+
+.contact {
+    
+    background-color: var(--light-bg);
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--form-color);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: var(--submit-button);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: var(--hover);
+}
+
+.form-message {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
 }
