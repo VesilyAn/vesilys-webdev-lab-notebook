@@ -1,4 +1,9 @@
 # Journal
+
+GITHUB LINK: https://github.com/VesilyAn/vesilys-webdev-lab-notebook/tree/main/FinalProject
+
+VIDEO LINK: https://media.pdx.edu/media/t/1_0wy5u5n2
+
 I began with the usual beginning for the HTML with the DocType and all that.
 
 I first created a skeleton with the four required sections. As well as a bare bones nav bar just to make sure nav bar works.
