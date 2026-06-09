@@ -5,6 +5,8 @@ CS463 - Intro to Web Dev
 
 6/8/2026
 
+VIDEO FOR PRESENTATION: https://media.pdx.edu/media/t/1_0wy5u5n2
+
 ## Overview
 This project is for CS463, Intro to Web Development.
 
